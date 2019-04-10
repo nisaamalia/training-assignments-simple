@@ -1,4 +1,3 @@
-// tag::AccountsTest[]
 package eu.sig.training.ch04;
 
 import static org.junit.Assert.assertFalse;
@@ -15,19 +14,19 @@ public class AccountsTest {
         assertFalse("isValid(\"123456788\") should return false", Accounts.isValid("123456788"));
     }
 
-    // end::AccountsTest[]
+    // end Accounts Test
 
     @Ignore("Deliberately fails for illustration purpose")
-    // tag::testEmptyString[]
+    // tag testEmptyString
     @Test
     public void testEmptyString() {
         assertFalse(Accounts.isValid(""));
     }
-    // end::testEmptyString[]
+    // end testEmptyString
 
     @SuppressWarnings("unused")
     @Ignore("Deliberately fails for illustration purpose")
-    // tag::showError[]
+    // tag showError
     @Test
     public void showError() {
         int dummy = 1 / 0;
@@ -37,7 +36,7 @@ public class AccountsTest {
         // the test always succeeds.
         assertTrue("You will never see this text.", true);
     }
-    // end::showError[]
+    // end showError
 
     @Test
     @Ignore
