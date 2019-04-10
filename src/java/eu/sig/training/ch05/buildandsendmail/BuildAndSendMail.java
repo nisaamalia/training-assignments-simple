@@ -1,7 +1,7 @@
 package eu.sig.training.ch05.buildandsendmail;
 
 public class BuildAndSendMail {
-    // tag::buildAndSendMail[]
+    // tag build and send email
     public void buildAndSendMail(MailMan m, String firstName, String lastName,
         String division, String subject, MailFont font, String message1,
         String message2, String message3) {
@@ -14,7 +14,7 @@ public class BuildAndSendMail {
         // Send message
         m.send(mId, subject, mMessage);
     }
-    // end::buildAndSendMail[]
+    // end
 
     @SuppressWarnings("unused")
     private MailMessage formatMessage(MailFont font, String string) {
