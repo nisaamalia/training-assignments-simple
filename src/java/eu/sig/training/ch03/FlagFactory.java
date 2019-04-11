@@ -72,4 +72,9 @@ public class FlagFactory {
 	}
     // end getFlag
 
+	public List<Color> getFlagColors(Nationality dutch) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
