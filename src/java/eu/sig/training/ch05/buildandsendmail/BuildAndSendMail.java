@@ -12,7 +12,8 @@ public class BuildAndSendMail {
         MailMessage mMessage = formatMessage(font,
             message1 + message2 + message3);
         // Send message
-        m.send(mId, subject, mMessage);
+       // m.send(mId, subject, mMessage);
+        MailMan mMan = send(mId, subject, mMessage);
     }
     // end
 
@@ -35,11 +36,6 @@ public class BuildAndSendMail {
     }
     
     private class MailMan{
-
-		public void send(String mId, String subject, MailMessage mMessage) {
-			// TODO Auto-generated method stub
-			
-		}
     
     }
 
