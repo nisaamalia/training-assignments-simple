@@ -20,12 +20,10 @@ public class BuildAndSendMail {
     private MailMessage formatMessage(MailFont font, String string) {
         return null;
     }
-
-    private class MailMan {
-
-        @SuppressWarnings("unused")
-        public void send(String mId, String subject, MailMessage mMessage) {}
-
+    
+    @SuppressWarnings("unused")
+    private MailMan send(String mId, String subject, MailMessage mMessage) {
+    	return null;
     }
 
     private class MailFont {
@@ -34,6 +32,15 @@ public class BuildAndSendMail {
 
     private class MailMessage {
 
+    }
+    
+    private class MailMan{
+
+		public void send(String mId, String subject, MailMessage mMessage) {
+			// TODO Auto-generated method stub
+			
+		}
+    
     }
 
 }
