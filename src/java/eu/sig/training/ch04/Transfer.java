@@ -3,7 +3,7 @@ package eu.sig.training.ch04;
 public class Transfer {
     CheckingAccount counterAccount;
 
-    //@SuppressWarnings("unused")
+    @SuppressWarnings("unused")
     public Transfer(Account account, CheckingAccount acct2, Money m) {}
 
     @SuppressWarnings("unused")
